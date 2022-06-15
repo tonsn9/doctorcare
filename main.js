@@ -40,9 +40,9 @@ function activateMenuAtCurrentSection(section) {
 
 function showNavOnScroll() {
   if (scrollY > 0) {
-    querySelector('#navigation').classList.add('scroll')
+    document.querySelector('#navigation').classList.add('scroll')
   } else {
-    querySelector('#navigation').classList.remove('scroll')
+    document.querySelector('#navigation').classList.remove('scroll')
   }
 }
 
