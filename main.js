@@ -38,6 +38,14 @@ function activateMenuAtCurrentSection(section) {
   }
 }
 
+// function showNavOnScroll() {
+//   if (scrollY > 0) {
+//     navigation.classList.add('scroll')
+//   } else {
+//     navigation.classList.remove('scroll')
+//   }
+// }
+
 function showNavOnScroll() {
   if (scrollY > 0) {
     document.querySelector('#navigation').classList.add('scroll')
@@ -45,6 +53,7 @@ function showNavOnScroll() {
     document.querySelector('#navigation').classList.remove('scroll')
   }
 }
+
 function showBackToTopButtonOnScroll() {
   if (scrollY > 550) {
     backToTopButton.classList.add('show')
